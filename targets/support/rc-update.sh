@@ -11,13 +11,7 @@ fi
 
 if [ "${clst_spec_prefix}" == "livecd" ]
 then
-	# default programs that we always want to start
-	rc-update del iptables
-	rc-update del netmount
-	rc-update del keymaps
-	rc-update del serial
-	rc-update del consolefont
-	# We need to add this one, unconditionally
+	rc-update del netmount default
 	rc-update add autoconfig default
 	[[ -e /etc/init.d/splash ]] && rc-update add splash default
 	[[ -e /etc/init.d/fbcondecor ]] && rc-update add fbcondecor default
