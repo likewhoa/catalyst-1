@@ -1,0 +1,70 @@
+# $Id$
+
+Licensing
+========================
+
+Originally, Catalyst was copyrighted by the Gentoo Foundation, Inc. and was
+released under the terms of the GNU General Public License v.2.1. Since this
+is a fork of that project, all new code is no longer copyrighted to the Gentoo
+Foundation. Currently, copyright is held by the individual authors for their
+contributions. For more information, please consult COPYING.
+
+Disclaimer
+========================
+
+This software is covered by no warranty or guarantee of functionality. It is
+provided to the public for use in creating source-based distributions in a
+simple and reproducable manner. Use at your own risk.
+
+Requirements
+=======================
+
+- Python 2.7 or greater (may still work with 2.6)
+- An ebuild repository snapshot (or an ebuild tree to create one)
+- A generic stage3 tarball for your architecture
+- shash for digest support
+
+What is catalyst?
+========================
+
+Catalyst is a release building tool, used by Gentoo Linux. With catalyst,
+you are able to completely customize your Gentoo install by customizing
+the very tools that are used to install a system. Official Gentoo Linux release
+media is built with catalyst.
+
+Catalyst is capable of:
+
+- Building installation stages
+- Building bootable LiveCDs
+- Building GRP (Gentoo Reference Platform) sets
+- Setting up a Tinderbox target for test building
+- Building netboot images
+
+Configuring catalyst
+========================
+
+After emerging/installing catalyst, the first (and probably only) thing
+that you will have to do is edit /etc/catalyst/catalyst.conf to your liking.
+
+If you are not using an ebuild for the installation, you should create a
+/etc/catalyst directory, and copy catalyst.conf and catalystrc from the
+distribution tarball's files directory.
+
+Example catalyst.conf:
+
+distdir="/usr/portage/distfiles"
+options="pkgcache kerncache"
+sharedir="/usr/share/catalyst"
+
+There are many more options that can be set, but those defaults are good
+for out of the box operation. For more documentation on what you can do
+with catalyst, please check the man page or the online documentation at:
+https://wiki.gentoo.org/wiki/Catalyst
+
+Bugs
+========================
+
+If you have questions or wish to help with development, contact the
+gentoo-catalyst@lists.gentoo.org mailing list. Bug reports should be
+filed at http://tinyurl.com/79slrk (https://bugs.gentoo.org) under the
+"Catalyst" component of the "Gentoo Hosted Projects" product.

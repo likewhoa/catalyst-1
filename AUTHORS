@@ -1,0 +1,45 @@
+# $Id$
+
+The copyright for catalyst is held by the Gentoo Foundation and by each
+of the individual contributors.
+
+
+Original Authors:
+-----------------
+John Davis <zhen@gentoo.org>
+Daniel Robbins <drobbins@gentoo.org>
+
+
+Significant contributors (including the first catalyst3 rewrite):
+-----------------------------------------------------------------
+Andrew Gaffney <agaffney@gentoo.org>
+Chris Gianelloni <wolf31o2@wolf31o2.org>
+
+
+Contributors:
+-------------
+Eric Edgar <rocket@gentoo.org>
+Andrew Gaffney <agaffney@gentoo.org>
+Chris Gianelloni <wolf31o2@gentoo.org>
+David Bryson <mutex@gentoo.org>
+Mike Frysinger <vapier@gentoo.org>
+Rob Holland <tigger@gentoo.org>
+Robin H. Johnson <robbat2@gentoo.org>
+Joshua Kinard <kumba@gentoo.org>
+Stuart Longland <redhatter@gentoo.org>
+Guy Martin <gmsoft@gentoo.org>
+Daniel Ostrow <dostrow@gentoo.org>
+Robert Paskowitz <r2d2@gentoo.org>
+Diego Pettenò <flameeyes@gentoo.org>
+Matsuu Takuto <matsuu@gentoo.org>
+Lars Weiler <pylon@gentoo.org>
+Gustavo Zacarias <gustavoz@gentoo.org>
+Raúl Porcel <armin76@gentoo.org>
+Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
+W. Trevor King <wking@tremily.us>
+
+
+Maintainers:
+------------
+Catalyst maintainers <catalyst@gentoo.org>
+Release Engineering <releng@gentoo.org>
