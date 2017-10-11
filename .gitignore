@@ -1,5 +1,5 @@
 *.py[co]
 dist
 build
-files
+/files
 MANIFEST
